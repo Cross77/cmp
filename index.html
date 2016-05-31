@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Component</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <style>
+        cmp,
+        title-big,
+        box,
+        message{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <title-big>BOX</title-big>
+    <box id="1" title="hello">Text</box>
+    
+    <title-big>BOX 2</title-big>
+    <box id="3" title="hello!">Texted</box>
+    
+    <title-big>MESSAGE</title-big>
+    <message name="Jerr">Hello</message>
+    
+    <!-- CMP -->
+    <cmp>
+        
+        <!-- TITLE -->
+        <div class="title-big">
+            <h1 class="content"></h1>
+            </hr>
+        </div>
+        
+        <!-- BOX -->
+        <div class="box">
+            ID = <span class="id"></span><br/>
+            TITLE = <span class="title"></span><br/>
+            CONTENT = <span class="content"></span>
+        </div>
+        
+        <!-- MESSAGE -->
+        <div class="message">
+            FROM = <span class="name"></span><br/>
+            MSG = <span class="content"></span>
+        </div>
+        
+    </cmp>
+    <script type="text/javascript" src="cmp.js"></script>
+    <script>
+        $(function(){
+            CMP();
+        });
+    </script>
+</body>
+</html>
