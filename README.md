@@ -1,5 +1,5 @@
 # cmp
-components js/html
+components in js/html
 
 ##demo
 http://cross77.github.io/cmp/
@@ -21,6 +21,12 @@ model:
       </hr>
   </div>
 </cmp>
+```
+
+using:
+
+```
+    <title-big>BOX</title-big>
 ```
 
 init:
