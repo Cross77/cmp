@@ -6,12 +6,6 @@ http://cross77.github.io/cmp/
 
 ##example
 
-somewhere in html:
-
-```
-<title-big>BOX</title-big>
-```
-
 model:
 
 ```
@@ -26,7 +20,7 @@ model:
 using:
 
 ```
-    <title-big>BOX</title-big>
+<title-big> Example </title-big>
 ```
 
 init:
